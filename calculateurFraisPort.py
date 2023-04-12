@@ -1,5 +1,5 @@
-user_input_pays = input("Veuillez entrer votre pays : ")
-user_input_montant = input("Veuillez entrer le montant :")
+user_input_pays = input("Veuillez entrer votre pays :")
+user_input_montant = input("Veuillez entrer le montant :")              
 
 def pays():
     if user_input_pays == "France":
@@ -13,11 +13,11 @@ def pays():
 pays()
 
 def montant():
-    if user_input_montant >=100:
+    if int(user_input_montant) <=100:
         message = "S'ajoutent chf 10."
     else:
         message = "S'ajoutent chf 20."
-        print(message)
+    print(message)
 
 montant()   
 
