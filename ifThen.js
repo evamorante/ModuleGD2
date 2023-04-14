@@ -1,5 +1,5 @@
 var sun = "sunny"
-var temp = "hot"
+var temp = "cold"
 
 if (sun == "sunny" && temp == "hot"){
     console.log("I am on holidays");
